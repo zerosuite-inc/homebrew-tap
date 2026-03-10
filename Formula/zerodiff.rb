@@ -7,24 +7,24 @@ class Zerodiff < Formula
   on_macos do
     on_arm do
       url "https://github.com/zerosuite-inc/0diff/releases/download/v0.1.0/0diff-v0.1.0-darwin-aarch64.tar.gz"
-      sha256 "88c7fd90e0179b744d1fc37bbe56de7ebcb08a6f075e7e1381d75f780833199e"
+      sha256 "23269169739e3bda4b4643fdbb08e9b4226c7180be51c789a5b80ecd2fa32b13"
     end
 
     on_intel do
       url "https://github.com/zerosuite-inc/0diff/releases/download/v0.1.0/0diff-v0.1.0-darwin-x86_64.tar.gz"
-      sha256 "a0825cb6c2c3c9313ab33f9a04fc9148119b37957f5a605e2881af232ce7289b"
+      sha256 "2f327eea67ace94e5d70062e0c7af73e80880480fa654874df1af4d2e8cf09e7"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/zerosuite-inc/0diff/releases/download/v0.1.0/0diff-v0.1.0-linux-aarch64.tar.gz"
-      sha256 ""
+      sha256 "719eaf3da019cb7606d19179dd8e0dfcd6f1ec42291cf937f552d8b3a4e2469d"
     end
 
     on_intel do
       url "https://github.com/zerosuite-inc/0diff/releases/download/v0.1.0/0diff-v0.1.0-linux-x86_64.tar.gz"
-      sha256 ""
+      sha256 "d98e164595a963c6faf6056e45d1dcdc4c977433d79482435bcfc1ae4f6b25b8"
     end
   end
 
